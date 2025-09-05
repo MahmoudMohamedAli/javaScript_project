@@ -1,1 +1,1 @@
-this repo is used for javaScript beginner
+this repo is used for beginner's javaScript projects.
