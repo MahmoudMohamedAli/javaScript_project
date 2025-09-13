@@ -3,26 +3,15 @@
 <head>
   <title>Basic Snake HTML Game</title>
   <meta charset="UTF-8">
-  <style>
-  html, body {
-    height: 100%;
-    margin: 0;
-  }
-
-  body {
-    background: rgb(0, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  canvas {
-    border: 1px solid white;
-  }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <canvas width="800" height="800" id="game"></canvas>
+<div id="score">Score: 0</div>
+<text id="game-over" >Game Over</text>
+
 <script src="code.js"></script>
+<button id="restart">Restart</button>
 
 </body>
 </html>

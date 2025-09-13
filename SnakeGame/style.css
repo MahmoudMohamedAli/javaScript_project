@@ -1,0 +1,46 @@
+ html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    border: 1px solid white;
+  }
+
+#restart {
+    background-color: #d7d9dd;
+    position: absolute;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    bottom: 10px;
+    cursor: pointer;
+}
+#score {
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+#game-over {
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
