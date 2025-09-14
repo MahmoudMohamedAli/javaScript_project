@@ -8,3 +8,6 @@ this repo is used for beginner's javaScript projects.
 ### Tutroial video
 
 https://github.com/user-attachments/assets/1fe5c431-6971-49f7-b926-22aa4f3b4028
+
+
+# Documentation for other projects coming soooooooooon 
